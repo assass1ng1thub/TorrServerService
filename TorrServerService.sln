@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorrServerService", "TorrServerService\TorrServerService.csproj", "{6C871BB6-01DD-4127-BADF-32FF4A54B5E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89920849-C138-48AA-99D6-E5BC99F22F63} = {89920849-C138-48AA-99D6-E5BC99F22F63}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorrServerTray", "TorrServerTray\TorrServerTray.csproj", "{AACD3453-9804-4948-BC46-31326D3A3C81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6C871BB6-01DD-4127-BADF-32FF4A54B5E9} = {6C871BB6-01DD-4127-BADF-32FF4A54B5E9}
+		{89920849-C138-48AA-99D6-E5BC99F22F63} = {89920849-C138-48AA-99D6-E5BC99F22F63}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorrServerLib", "TorrSeverLib\TorrServerLib.csproj", "{89920849-C138-48AA-99D6-E5BC99F22F63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C871BB6-01DD-4127-BADF-32FF4A54B5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C871BB6-01DD-4127-BADF-32FF4A54B5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C871BB6-01DD-4127-BADF-32FF4A54B5E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6C871BB6-01DD-4127-BADF-32FF4A54B5E9}.Debug|x86.Build.0 = Debug|Any CPU
+		{6C871BB6-01DD-4127-BADF-32FF4A54B5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C871BB6-01DD-4127-BADF-32FF4A54B5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C871BB6-01DD-4127-BADF-32FF4A54B5E9}.Release|x86.ActiveCfg = Release|Any CPU
+		{6C871BB6-01DD-4127-BADF-32FF4A54B5E9}.Release|x86.Build.0 = Release|Any CPU
+		{AACD3453-9804-4948-BC46-31326D3A3C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACD3453-9804-4948-BC46-31326D3A3C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACD3453-9804-4948-BC46-31326D3A3C81}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AACD3453-9804-4948-BC46-31326D3A3C81}.Debug|x86.Build.0 = Debug|Any CPU
+		{AACD3453-9804-4948-BC46-31326D3A3C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACD3453-9804-4948-BC46-31326D3A3C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACD3453-9804-4948-BC46-31326D3A3C81}.Release|x86.ActiveCfg = Release|Any CPU
+		{AACD3453-9804-4948-BC46-31326D3A3C81}.Release|x86.Build.0 = Release|Any CPU
+		{89920849-C138-48AA-99D6-E5BC99F22F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89920849-C138-48AA-99D6-E5BC99F22F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89920849-C138-48AA-99D6-E5BC99F22F63}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89920849-C138-48AA-99D6-E5BC99F22F63}.Debug|x86.Build.0 = Debug|Any CPU
+		{89920849-C138-48AA-99D6-E5BC99F22F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89920849-C138-48AA-99D6-E5BC99F22F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89920849-C138-48AA-99D6-E5BC99F22F63}.Release|x86.ActiveCfg = Release|Any CPU
+		{89920849-C138-48AA-99D6-E5BC99F22F63}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AA3E08C-8C5C-4925-AC8D-0B8FAA972A37}
+	EndGlobalSection
+EndGlobal
